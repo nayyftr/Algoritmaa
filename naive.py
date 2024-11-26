@@ -7,6 +7,7 @@ def bubble_sort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
     return arr
 
+
 random.seed(40)
 data = [random.randint(0, 100) for _ in range(50)]
 print("Sorted Data:", bubble_sort(data))
